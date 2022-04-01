@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX - Fetch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="form_group">
+  <form class="form">
+    <label>Sortuj:
+      <select class="select_filter" name="gender">
+        <option value="all" selected>Wszystko</option>
+        <option value="recommended">Rekomendowane</option>
+        <option value="saleout">Wyprzedaż</option>
+        <option value="bestseller">Bestseller</option>
+        <option value="promotion">Promocja</option>
+        <option value="new">Nowość</option>
+      </select>
+    </label>
+  </form>
+</div>
+
+  <div class="products_list">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
